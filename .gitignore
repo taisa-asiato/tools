@@ -1,0 +1,8 @@
+*.out
+*.txt
+*.back
+*.pcap
+*.pcapng
+*.bacl
+*.swp
+*/
