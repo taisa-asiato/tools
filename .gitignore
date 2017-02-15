@@ -1,8 +1,10 @@
-*.out
-*.txt
-*.back
-*.pcap
-*.pcapng
-*.bacl
-*.swp
+/*.out
+/*.txt
+/*.back
+/*.pcap
+/*.pcapng
+/*.bacl
+/*.swp
 */
+split_a.rb
+
