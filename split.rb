@@ -49,10 +49,10 @@ File.open( ARGV[0], "r:utf-8" ) do | openfile |
 			if line_split[2] == "Transmission" then
 				srcport = line_split[7].split(",")
 				dstport = line_split[10].split(",")
-				print line_split[0], " ", line_split[1], " TCP ", srcport[0], " ", dstport[0], " ", sprintf( "%.6f", first_ref_time ), "000", "\n"
+				print line_split[0], " ", line_split[1], " TCP ", srcport[0], " ", dstport[0], " ", sprintf( "%f", first_ref_time ), "\n"
 			elsif line_split[2] == "User" then 
 				srcport = line_split[7].split(",")
-				print line_split[0], " ", line_split[1], " UDP ", srcport[0], " ", line_split[10], " ", sprintf( "%.6f", first_ref_time ), "000", "\n"
+				print line_split[0], " ", line_split[1], " UDP ", srcport[0], " ", line_split[10], " ", sprintf( "%f", first_ref_time ), "\n"
 			end
 		end
 	end
